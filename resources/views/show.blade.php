@@ -80,7 +80,7 @@
 
             <div class="mt-12">
                 <button
-                    class="flex bg-blue-500 text-white font-semibold px-4 hover:bg-blue-600 rounded transition ease-in-out duration-150">
+                    class="flex bg-blue-500 text-white font-semibold px-4 py-4 hover:bg-blue-600 rounded transition ease-in-out duration-150">
                     <svg class="w-6 fill-current" viewBox="0 0 24 24">
                         <path d="M0 0h24v24H0z" fill="none"></path>
                         <path
@@ -91,6 +91,138 @@
                 </button>
             </div>
         </div>
-    </div>
+    </div> <!-- end game-details -->
+
+    <div class="images-container border-b border-gray-800 pb-12 mt-8">
+        <h2 class="text-blue-500 uppercase tracking-wide font-semibold">Images</h2>
+        <div class="grid grid-cols-3 gap-12 mt-8">
+            <div>
+                <a href="">
+                    <img src="/screenshot1.jpg" alt="screenshot"
+                        class="hover:opacity-75 transition ease-in-out duration-150">
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <img src="/screenshot2.jpg" alt="screenshot"
+                        class="hover:opacity-75 transition ease-in-out duration-150">
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <img src="/screenshot3.jpg" alt="screenshot"
+                        class="hover:opacity-75 transition ease-in-out duration-150">
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <img src="/screenshot4.jpg" alt="screenshot"
+                        class="hover:opacity-75 transition ease-in-out duration-150">
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <img src="/screenshot5.jpg" alt="screenshot"
+                        class="hover:opacity-75 transition ease-in-out duration-150">
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <img src="/screenshot6.jpg" alt="screenshot"
+                        class="hover:opacity-75 transition ease-in-out duration-150">
+                </a>
+            </div>
+        </div>
+    </div> <!-- end images-container -->
+    <div class="similar-games-container mt-8">
+        <h2 class="text-blue-500 uppercase tracking-wide font-semibold">Similar Games</h2>
+        <div
+            class="popular-games text-sm grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 xl:grid-cols-6 gap-12">
+            <div class="game mt-8">
+                <div class="relative inline-block">
+                    <a href="#">
+                        <img src="/IMG_20201230_205313860.jpg" alt="game cover"
+                            class="hover:opacity-75 transition ease-in-out duration-150">
+                    </a>
+                    <div class="absolute bottom-0 right-0 w-16 h-16 bg-gray-800 rounded-full"
+                        style="bottom:-20px; right: -20px">
+                        <div class="font-semibold text-xs flex justify-center items-center h-full">80%</div>
+                    </div>
+                </div>
+                <a href="#" class="block text-base font-semibold leading-tight hover:text-gray-400 mt-8">Adam 01</a>
+                <div class="text-gray-400 mt-1">Playstation 4</div>
+            </div>
+            <div class="game mt-8">
+                <div class="relative inline-block">
+                    <a href="#">
+                        <img src="/IMG_20201230_184613883_BURST000_COVER_TOP.jpg" alt="game cover"
+                            class="hover:opacity-75 transition ease-in-out duration-150">
+                    </a>
+                    <div class="absolute bottom-0 right-0 w-16 h-16 bg-gray-800 rounded-full"
+                        style="bottom:-20px; right: -20px">
+                        <div class="font-semibold text-xs flex justify-center items-center h-full">80%</div>
+                    </div>
+                </div>
+                <a href="#" class="block text-base font-semibold leading-tight hover:text-gray-400 mt-8">Adam 02</a>
+                <div class="text-gray-400 mt-1">Playstation 4</div>
+            </div>
+            <div class="game mt-8">
+                <div class="relative inline-block">
+                    <a href="#">
+                        <img src="/IMG_20201225_180418147_HDR.jpg" alt="game cover"
+                            class="hover:opacity-75 transition ease-in-out duration-150">
+                    </a>
+                    <div class="absolute bottom-0 right-0 w-16 h-16 bg-gray-800 rounded-full"
+                        style="bottom:-20px; right: -20px">
+                        <div class="font-semibold text-xs flex justify-center items-center h-full">80%</div>
+                    </div>
+                </div>
+                <a href="#" class="block text-base font-semibold leading-tight hover:text-gray-400 mt-8">Adam 03</a>
+                <div class="text-gray-400 mt-1">Playstation 4</div>
+            </div>
+            <div class="game mt-8">
+                <div class="relative inline-block">
+                    <a href="#">
+                        <img src="/IMG_20201212_141647385.jpg" alt="game cover"
+                            class="hover:opacity-75 transition ease-in-out duration-150">
+                    </a>
+                    <div class="absolute bottom-0 right-0 w-16 h-16 bg-gray-800 rounded-full"
+                        style="bottom:-20px; right: -20px">
+                        <div class="font-semibold text-xs flex justify-center items-center h-full">80%</div>
+                    </div>
+                </div>
+                <a href="#" class="block text-base font-semibold leading-tight hover:text-gray-400 mt-8">Adam 10</a>
+                <div class="text-gray-400 mt-1">Playstation 4</div>
+            </div>
+            <div class="game mt-8">
+                <div class="relative inline-block">
+                    <a href="#">
+                        <img src="/IMG_20201212_141438805.jpg" alt="game cover"
+                            class="hover:opacity-75 transition ease-in-out duration-150">
+                    </a>
+                    <div class="absolute bottom-0 right-0 w-16 h-16 bg-gray-800 rounded-full"
+                        style="bottom:-20px; right: -20px">
+                        <div class="font-semibold text-xs flex justify-center items-center h-full">80%</div>
+                    </div>
+                </div>
+                <a href="#" class="block text-base font-semibold leading-tight hover:text-gray-400 mt-8">Adam 11</a>
+                <div class="text-gray-400 mt-1">Playstation 4</div>
+            </div>
+            <div class="game mt-8">
+                <div class="relative inline-block">
+                    <a href="#">
+                        <img src="/IMG_20210102_164412404.jpg" alt="game cover"
+                            class="hover:opacity-75 transition ease-in-out duration-150">
+                    </a>
+                    <div class="absolute bottom-0 right-0 w-16 h-16 bg-gray-800 rounded-full"
+                        style="bottom:-20px; right: -20px">
+                        <div class="font-semibold text-xs flex justify-center items-center h-full">80%</div>
+                    </div>
+                </div>
+                <a href="#" class="block text-base font-semibold leading-tight hover:text-gray-400 mt-8">Adam 12</a>
+                <div class="text-gray-400 mt-1">Playstation 4</div>
+            </div>
+        </div> <!-- end popular-games --->
+    </div> <!-- end similar games -->
 </div>
 @endsection
